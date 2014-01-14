@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android"
+id="com.cg.sinavParkPlugin"
+    version="0.1.0">
+    <name>sinavParkPlugin</name>
+
+    <js-module src="www/sinavParkPlugin.js" name="sinavParkPlugin">
+        <clobbers target="sinavParkPlugin" />
+    </js-module>
+    
+     
+     <!-- ios -->
+     <platform name="ios">    
+         <config-file target="config.xml" parent="/*">
+             <feature name="Media">
+                 <param name="ios-package" value="sinavParkPlugin" /> 
+             </feature>
+         </config-file>
+         <header-file src="src/ios/sinavParkPlugin.h" />
+         <source-file src="src/ios/sinavParkPlugin.m" />
+     </platform>
+
+
+            
+</plugin>

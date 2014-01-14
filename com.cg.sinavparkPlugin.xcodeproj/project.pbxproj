@@ -1,0 +1,80 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		522F3C371885F2A30095498F /* plugin.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = plugin.xml; sourceTree = "<group>"; };
+		522F3C381885F2A30095498F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		522F3C391885F2A30095498F /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		522F3C3A1885F2A30095498F /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test; sourceTree = "<group>"; };
+		522F3C3B1885F2A30095498F /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		522F3C2F1885F2920095498F = {
+			isa = PBXGroup;
+			children = (
+				522F3C371885F2A30095498F /* plugin.xml */,
+				522F3C381885F2A30095498F /* README.md */,
+				522F3C391885F2A30095498F /* src */,
+				522F3C3A1885F2A30095498F /* test */,
+				522F3C3B1885F2A30095498F /* www */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		522F3C301885F2920095498F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 522F3C331885F2920095498F /* Build configuration list for PBXProject "com.cg.sinavparkPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 522F3C2F1885F2920095498F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		522F3C341885F2920095498F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		522F3C351885F2920095498F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		522F3C331885F2920095498F /* Build configuration list for PBXProject "com.cg.sinavparkPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522F3C341885F2920095498F /* Debug */,
+				522F3C351885F2920095498F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 522F3C301885F2920095498F /* Project object */;
+}
